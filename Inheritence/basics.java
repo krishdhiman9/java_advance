@@ -1,7 +1,6 @@
 package Inheritence;
 
 import Inheritence.base.subase;
-
 class base{
     String name;
     int age;

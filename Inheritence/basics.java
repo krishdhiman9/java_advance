@@ -19,7 +19,7 @@ class base{
         agex =a;
     }
 }
-class BA extends base{
+class Bb extends base{
     String namey;
     int agey;
        
@@ -49,7 +49,7 @@ public class basics {
         System.out.println(b.getnamex());
         System.out.println(b.getagex());
 
-        BA d = new BA();
+        Bb d = new Bb();
         d.setnamey("kd");
         d.setagey(20);
         System.out.println(d.getnamey());

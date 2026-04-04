@@ -1,5 +1,5 @@
 package Inheritence;
-
+//create two class and perform operation..
 class dog{
     String name;
     String color;
@@ -44,6 +44,9 @@ class cat extends dog{
 public class animal {
     public static void main(String[]args){
         dog d = new dog();
+        // cat c = new cat();
+        // c.setnamex("pitbull");
+        // System.out.println(c.getname());
         d.setname("pitbull");
         d.setcolor("black");
         System.out.println(d.getname());

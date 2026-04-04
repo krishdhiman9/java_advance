@@ -1,58 +1,59 @@
 package Inheritence;
 
-import Inheritence.base.subase;
 class base{
-    String name;
-    int age;
+    String namex;
+    int agex;
 
-    public String getname(){
-        return name;
+    public String getnamex(){
+        return namex;
     }
-    public void setname(String n){
-        name = n;
-    }
-
-    public int getage(){
-        return age;
-
-    }
-    public void setage(int a){
-        age =a;
+    public void setnamex(String n){
+        namex = n;
     }
 
-class subase extends base{
-    String Name;
-    int Age;
+    public int getagex(){
+        return agex;
+
+    }
+    public void setagex(int a){
+        agex =a;
+    }
+}
+class BA extends base{
+    String namey;
+    int agey;
        
-    public String getname(){
-        return Name;
+    public String getnamey(){
+        return namey;
     }
-    public void setname(String b){
-        Name = b;
+    public void setnamey(String b){
+        namey = b;
     }
 
-    public int getage(){
-        return Age;
+    public int getagey(){
+        return agey;
 
     }
-    public void setage(int c){
-        Age =c;
+    public void setagey(int c){
+        agey =c;
     }
-    } 
+    
 }
 
 public class basics {
     public static void main(String[] args) {
         base b = new base();
        
-        b.setname("krish dhiman");
-        b.setage(19);
-        System.out.println(b.getname());
-        System.out.println(b.getage());
+        b.setnamex("krish dhiman");
+        b.setagex(19);
+        System.out.println(b.getnamex());
+        System.out.println(b.getagex());
 
-        subase d = new subase();
-        d.setname("kd");
-        System.out.println(d.getname());
+        BA d = new BA();
+        d.setnamey("kd");
+        d.setagey(20);
+        System.out.println(d.getnamey());
+        System.out.println(d.getagey());
 
 
 

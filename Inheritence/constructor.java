@@ -37,9 +37,8 @@ public class constructor {
         //derived d = new derived();
         //derived d = new derived(2,2);
         //chlidOfDerivde cd = new chlidOfDerivde();
-        
+
         chlidOfDerivde d = new chlidOfDerivde(2, 3, 4);
         
     }
-    
 }

@@ -21,12 +21,23 @@ class derived extends base1{
 
     }
 }
+class chlidOfDerivde extends derived{
+    chlidOfDerivde(){
+        System.out.println("i am a child of derived class");
+    }
+    chlidOfDerivde(int x,int y,int z){
+        super(x, y);
+        System.out.println("i am in overloaded constructor of childofoverloaded with value z as: "+ z);
+    }
+}
 
 public class constructor {
     public static void main(String[] args) {
-        // base1 b = new base1 ();
+        //base1 b = new base1 (2);
         //derived d = new derived();
-        derived d = new derived(2,2);
+        //derived d = new derived(2,2);
+        //chlidOfDerivde cd = new chlidOfDerivde();
+        chlidOfDerivde d = new chlidOfDerivde(2, 3, 4);
         
     }
     

@@ -36,7 +36,6 @@ class cat extends dog{
     } 
     public void setcolorx(String b){
         colorx = b;
-        
     } 
 }
 

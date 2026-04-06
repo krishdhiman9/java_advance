@@ -30,7 +30,6 @@ class chlidOfDerivde extends derived{
         System.out.println("i am in overloaded constructor of childofoverloaded with value z as: "+ z);
     }
 }
-
 public class constructor {
     public static void main(String[] args) {
         //base1 b = new base1 (2);

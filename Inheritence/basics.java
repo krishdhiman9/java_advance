@@ -49,7 +49,6 @@ public class basics {
         System.out.println(b.getnamex());
         System.out.println(b.getagex());
 
-        
         Bb d = new Bb();
         d.setnamey("kd");
         d.setagey(20);

@@ -35,9 +35,9 @@ public class constructor {
         //base1 b = new base1 (2);
         //base1 b = new base1(3);
         //derived d = new derived();
-        derived d = new derived(2,2);
+        //derived d = new derived(2,2);
         //chlidOfDerivde cd = new chlidOfDerivde();
-        //chlidOfDerivde d = new chlidOfDerivde(2, 3,4);
+        chlidOfDerivde d = new chlidOfDerivde(2, 3,4);
         
     }
 }

@@ -46,8 +46,8 @@ public class animal {
         // System.out.println(c.getname());
         d.setname("pitbull");
         d.setcolor("black");
-        System.out.println(d.getname());
-        System.out.println(d.getcolor());
+        System.out.println("dog name is "+d.getname());
+        System.out.println("dog's color is "+d.getcolor());
 
         cat c = new cat();
         c.setnamex("tom");

@@ -24,7 +24,6 @@ class cat extends dog{
     String colorx;
     public String getnamex(){
         return namex;
-
     } 
     public void setnamex(String a){
         namex = a;

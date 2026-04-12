@@ -55,7 +55,6 @@ public class animal {
         System.out.println("cat name is "+c.getnamex());
         System.out.println("cat's color is "+c.getcolorx());
 
-        
-    }
+         }
     
 }

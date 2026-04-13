@@ -8,7 +8,7 @@ class base{
         return namex;
     }
     public void setnamex(String n){
-        namex = n;
+        this.namex = n;
     }
 
     public int getagex(){
@@ -16,7 +16,7 @@ class base{
 
     }
     public void setagex(int a){
-        agex =a;
+        this.agex =a;
     }
 }
 class Bb extends base{
@@ -27,7 +27,7 @@ class Bb extends base{
         return namey;
     }
     public void setnamey(String b){
-        namey = b;
+        this.namey = b;
     }
 
     public int getagey(){
@@ -35,7 +35,7 @@ class Bb extends base{
 
     }
     public void setagey(int c){
-        agey =c;
+        this.agey =c;
     }
     
 }

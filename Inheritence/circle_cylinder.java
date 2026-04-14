@@ -1,5 +1,6 @@
 package Inheritence;
 //Create a class Circle and use inheritance to create another class Cylinder from it.
+
 class circle{
     double r = 3;
     
@@ -10,6 +11,7 @@ class circle{
         System.out.println("circumfrenece of circle = " +2*3.14*r );
     }
 }
+
 class cylinder extends circle{
     int v = 3;
     int r = 3;

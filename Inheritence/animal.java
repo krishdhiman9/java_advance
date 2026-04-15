@@ -15,8 +15,7 @@ class dog{
 
     } 
     public void setcolor(String c){
-        color = c;
-        
+        color = c; 
     } 
 }
 class cat extends dog{

@@ -1,5 +1,5 @@
 package Inheritence;
-
+//basics
 class base{
     String namex;
     int agex;

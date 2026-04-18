@@ -18,6 +18,7 @@ class base{
     public void setagex(int a){
         this.agex =a;
     }
+    
 }
 class Bb extends base{
     String namey;

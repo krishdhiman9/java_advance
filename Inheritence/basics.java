@@ -10,7 +10,7 @@ class base{
     public void setnamex(String n){
         this.namex = n;
     }
-
+    
     public int getagex(){
         return agex;
 
@@ -54,7 +54,7 @@ public class basics {
         d.setagey(20);
         System.out.println(d.getnamey());
         System.out.println(d.getagey());
-        
+
 
 
 

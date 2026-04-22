@@ -12,7 +12,7 @@ class cuboid{
         System.out.println("i am in cuboid ");
     }
     cuboid(int x, int y ){
-        super(x);
+        super();
         System.out.println("i am in super key word 2");
     }
 }
@@ -20,7 +20,8 @@ class cuboid{
 
 public class reactangle_cuboid {
     public static void main(String[] args) {
-        cuboid c = new cuboid()
+        cuboid c = new cuboid();
+
 
     }
 }

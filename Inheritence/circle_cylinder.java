@@ -1,4 +1,4 @@
-package Inheritence;
+//package Inheritence;
 //Create a class Circle and use inheritance to create another class Cylinder from it.
 class circle{
     double r = 3;

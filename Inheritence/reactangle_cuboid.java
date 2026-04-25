@@ -1,4 +1,4 @@
-package Inheritence;
+//package Inheritence;
 class rectangle{
     rectangle(){
         System.out.println("i am in rectangle");

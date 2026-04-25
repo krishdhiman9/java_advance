@@ -1,11 +1,10 @@
-package Inheritence;
+//package Inheritence;
 //create two class and perform operation..
 class dog{
     String name;
     String color;
     public String getname(){
         return name;
-
     } 
     public void setname(String n){
         name = n;
@@ -37,7 +36,7 @@ class cat extends dog{
     } 
 }
 
-public class animal {
+public class animal{
     public static void main(String[]args){
         dog d = new dog();
         // cat c = new cat();

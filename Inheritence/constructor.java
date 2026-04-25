@@ -1,4 +1,4 @@
-package Inheritence;
+//package Inheritence;
 
 class base1{
     

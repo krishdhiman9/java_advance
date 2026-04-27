@@ -54,3 +54,4 @@ public class animal{
         System.out.println("cat's color is "+c.getcolorx());
 }
 }
+

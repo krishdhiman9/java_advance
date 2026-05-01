@@ -10,8 +10,7 @@ class dog{
         name = n;
     } 
      public String getcolor(){
-        return color;                                                                                                                                                                                                                                       
-
+        return color;
     } 
     public void setcolor(String c){
         color = c; 

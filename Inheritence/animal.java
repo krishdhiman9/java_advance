@@ -1,4 +1,3 @@
-//package Inheritence;
 //create two class and perform operation..
 class dog{
     String name;

@@ -7,11 +7,12 @@ class rectangle{
         System.out.println("i am in super key word 1");
     }
 }
-class cuboid{
-    cuboid(){
+class cuboid {
+    cuboid() {
         System.out.println("i am in cuboid ");
     }
-    cuboid(int x, int y ){
+
+    cuboid(int x, int y) {
         super();
         System.out.println("i am in super key word 2");
     }

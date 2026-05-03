@@ -13,7 +13,6 @@ class base{
     
     public int getagex(){
         return agex;
-
     }
     public void setagex(int a){
         this.agex =a;

@@ -18,9 +18,9 @@ class cylinder extends circle{
     cylinder(){
         System.out.println("volume of cylinder = " + 3.14*r*r*h);
     }
-    cylinder(double r,double h){
+    cylinder(double r,double h) {
         super(r);
-        System.out.println("total surface area of cirlce = " + 2*3.14*r*(r+h));
+        System.out.println("total surface area of cirlce = " + 2 * 3.14 * r * (r + h));
 
     }
 }

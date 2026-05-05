@@ -21,7 +21,6 @@ class cylinder extends circle{
     cylinder(double r,double h) {
         super(r);
         System.out.println("total surface area of cirlce = " + 2 * 3.14 * r * (r + h));
-
     }
 }
 

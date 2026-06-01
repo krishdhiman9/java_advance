@@ -1,8 +1,6 @@
 //package Inheritence;
 
 class base1{
-    
-    
     base1(){
         System.out.println("i am in base1 constructor");
     }

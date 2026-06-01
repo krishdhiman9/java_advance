@@ -9,7 +9,6 @@ class namee{
         name = "Unknown";
         marks = 0;
     }
-
     namee(int age){
         System.out.println(this.age=age);
         this.name="unknown";

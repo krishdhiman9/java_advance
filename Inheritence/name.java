@@ -14,10 +14,10 @@ class namee{
         this.name="unknown";
         this.marks=0;
     }
-    namee(int age,double marks){
-        this.age=age;
-        this.name="null";
-        this.marks=marks;
+    namee(int age,double marks) {
+        this.age = age;
+        this.name = "null";
+        this.marks = marks;
     }
 }
 public class name {

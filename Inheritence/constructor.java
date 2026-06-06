@@ -18,7 +18,7 @@ class derived extends base1{
     //constructor overloading 
     derived(int x, int y){
         super(x);
-        System.out.println("i am in overloaded constructor of derivede with value of y as : " + y);
+        System.out.println("i am in overloaded constructor of derived with value of y as : " + y);
     }
 }
 class chlidOfDerivde extends derived{

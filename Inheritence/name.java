@@ -26,7 +26,5 @@ public class name {
         System.out.println(n.age);
         System.out.println(n.name);
         System.out.println(n.marks);
-
-
     }
 }

@@ -20,6 +20,7 @@ class namee{
         this.marks = marks;
     }
 }
+
 public class name {
     public static void main(String[] args) {
         namee n = new namee(24,"krish", 3.4);

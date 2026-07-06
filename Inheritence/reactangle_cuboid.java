@@ -21,7 +21,9 @@ class cuboid {
 
 public class reactangle_cuboid {
     public static void main(String[] args) {
+//        rectangle r = new rectangle(4);
         cuboid c = new cuboid();
+
 
 
 

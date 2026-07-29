@@ -12,6 +12,7 @@ class student{
         return roll;
     }
 }
+
 public class revision  {
     static void main() {
         student n = new student();
